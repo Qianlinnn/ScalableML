@@ -40,7 +40,7 @@
 
 * 将结构强加于非结构化数据
 
-![结构光谱图ETF]()
+![结构光谱图ETF](https://github.com/Qianlinnn/ScalableML/raw/master/img2/week1/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%85%89%E8%B0%B1.png)
 
 [结构化数据，半结构化数据，非结构化数据说明](https://blog.csdn.net/liangyihuai/article/details/54864952)
 ## The Big Data Problem
@@ -81,7 +81,7 @@
 
 ## Apache Spark Ecosystem
 
-![ Apache Spark生态系统]() 
+![ Apache Spark生态系统](https://github.com/Qianlinnn/ScalableML/raw/master/img2/week1/Apache%20Spark%E7%94%9F%E6%80%81%E7%B3%BB%E7%BB%9F.png) 
 
 ## Spark Components(Spark组件)
 * Spark程序首先创建一个SparkContext / SparkSession对象（驱动程序）
@@ -93,7 +93,7 @@
     * 进行运算
     * 访问数据存储
 
-![Spark组件]()
+![Spark组件](https://github.com/Qianlinnn/ScalableML/raw/master/img2/week1/Spark%E7%BB%84%E4%BB%B6.png)
 
 ## Spark and SQL contexts（Spark 和SQL上下文）
 * Spark程序是两个程序
@@ -110,33 +110,33 @@
 ## Spark Essentials: Master(主参数)
 * SparkContext / SparkSesion的主参数确定我们使用的集群的类型和大小
 
-![Master_parameters]()
+![Master_parameters](https://github.com/Qianlinnn/ScalableML/raw/master/img2/week1/Master_parameters.png)
 
 ## Spark example(log Mining)
 
 step 1
 
-![example_1]()
+![example_1](https://github.com/Qianlinnn/ScalableML/raw/master/img2/week1/example_1.png)
 
 step 2
 
-![example_2]()
+![example_2](https://github.com/Qianlinnn/ScalableML/raw/master/img2/week1/example_2.png)
 
 step 3
 
-![example_3]()
+![example_3](https://github.com/Qianlinnn/ScalableML/raw/master/img2/week1/example_3.png)
 
-![example_3_2]()
+![example_3_2](https://github.com/Qianlinnn/ScalableML/raw/master/img2/week1/example_3_2.png)
 
-![example_3_3]()
+![example_3_3](https://github.com/Qianlinnn/ScalableML/raw/master/img2/week1/example_3_3.png)
 
-![example_3_4]()
+![example_3_4](https://github.com/Qianlinnn/ScalableML/raw/master/img2/week1/example_3_4.png)
 
-![example_3_5]()
+![example_3_5](https://github.com/Qianlinnn/ScalableML/raw/master/img2/week1/example_3_5.png)
 
 step 4
 
-![example_4]()
+![example_4](https://github.com/Qianlinnn/ScalableML/raw/master/img2/week1/example_4.png)
 
 **Note**: 上面过程的统计‘php’ action函数运行图省略了，因为与第一个mysql的count函数的运行过程是一样的
 
