@@ -316,11 +316,11 @@ Dataframe示意图
 ## Word Count in Spark
 * 示意图
 
-![word_count_in_spark示意图]()
+![word_count_in_spark示意图](https://github.com/Qianlinnn/ScalableML/raw/master/img/word_count%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
 ## Execution plan
 
-![Execution_plan示意图]()
+![Execution_plan示意图](https://github.com/Qianlinnn/ScalableML/raw/master/img/execution_plan%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
 * The scheduler(排程器)检查RDD的血统图以建立阶段的DAG
 
@@ -332,7 +332,7 @@ Dataframe示意图
 
 ## Stage Execution(阶段执行)
 
-![阶段执行]()
+![阶段执行](https://github.com/Qianlinnn/ScalableML/raw/master/img/%E9%98%B6%E6%AE%B5%E6%89%A7%E8%A1%8C.png)
 
 * 在新的RDD里为每一个分区创建一个任务
 * 序列化任务
@@ -342,11 +342,11 @@ Dataframe示意图
 # Word Count in Spark(作一个整体的视角)
 * 在Spark里使用scala统计单词
 
-![whole_view_word_count]()
+![whole_view_word_count](https://github.com/Qianlinnn/ScalableML/raw/master/img/whole_view_word_count.png)
 
 ## RDD 操作
 
-![RDD操作]()
+![RDD操作](https://github.com/Qianlinnn/ScalableML/raw/master/img/RDD%20operation.png)
 
 # Setting the Level of Parallelism](设置并行度)
 
