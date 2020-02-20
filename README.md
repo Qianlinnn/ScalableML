@@ -1,3 +1,4 @@
+# 谢菲尔德大学19-20年课件， review note里是课件的中文翻译整理
 # COM6012 Scalable Machine Learning - University of Sheffield
 ## Spring 2020 by Haiping Lu (1-5) and Mauricio A Álvarez (6-10)
 * Session 1: Introduction to Spark and ShARC (HPC)
