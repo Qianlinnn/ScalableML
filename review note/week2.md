@@ -39,7 +39,7 @@
 * 对一个RDD使用转换操作：eg. map，filter
 * 对一个RDD使用Action操作 eg. collect, count
 
-![RDD工作图]()
+![RDD工作图](https://github.com/Qianlinnn/ScalableML/raw/master/img/RDD%E5%B7%A5%E4%BD%9C%E5%9B%BE.png)
 
 * 用户可以控制另外两个方面:
     * 持续性
@@ -64,14 +64,14 @@
     * Spark从故障中恢复
 * 一些转换函数如下所示
 
-![转换函数示意图]()
+![转换函数示意图](https://github.com/Qianlinnn/ScalableML/raw/master/img/%E8%BD%AC%E6%8D%A2%E5%87%BD%E6%95%B0%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
 ## Spark Actions
 * 让Spark执行之前transformation的命令来转换源
 * Action命令是让Spark获得结果的动作
 * 一部分Action函数
 
-![Action函数示意图]()
+![Action函数示意图](https://github.com/Qianlinnn/ScalableML/raw/master/img/action%E5%87%BD%E6%95%B0%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
 ## Lineage Graph(血统图)
 * RDD 保持了血统踪迹()
@@ -83,11 +83,11 @@
 
 示意图
 
-![operations示意图]()
+![operations示意图](https://github.com/Qianlinnn/ScalableML/raw/master/img/operation%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
 逐步示意图
 
-![逐步示意图]()
+![逐步示意图](https://github.com/Qianlinnn/ScalableML/raw/master/img/%E9%80%90%E6%AD%A5%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
     
 ## SparkContext
@@ -180,13 +180,13 @@
 ## Unified API
 unified API 示意图
 
-![unified API 示意图]()
+![unified API 示意图](https://github.com/Qianlinnn/ScalableML/raw/master/img/Unified%20API%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
 ## typed and un-typed APIs(类型化和非类型化API)
 
 示意图
 
-![typed and un-typed APIs]()
+![typed and un-typed APIs](https://github.com/Qianlinnn/ScalableML/raw/master/img/typed%20and%20un-typed%20APIs.png)
 
 
 
@@ -219,17 +219,17 @@ unified API 示意图
 
 Dataframe示意图
 
-![Dataframe示意图]()
+![Dataframe示意图](https://github.com/Qianlinnn/ScalableML/raw/master/img/DataFrame%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
 ## Compare DF and RDD speed
 
 * Spark Dataframes很快
 
-![df_rdd速度比较示意图]()
+![df_rdd速度比较示意图](https://github.com/Qianlinnn/ScalableML/raw/master/img/df_rdd%E9%80%9F%E5%BA%A6%E6%AF%94%E8%BE%83%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
 ## 空间有效性：
 
-![空间有限性比较示意图]()
+![空间有限性比较示意图](https://github.com/Qianlinnn/ScalableML/raw/master/img/%E7%A9%BA%E9%97%B4%E6%9C%89%E6%95%88%E6%80%A7%E6%9F%B1%E7%8A%B6%E5%9B%BE.png)
 
 ## Machine learning library (MLlib)
 * ML algorithms: 常用的学习算法如分类，回归，聚类，协同过滤
@@ -262,52 +262,140 @@ Dataframe示意图
  
  ML pipeline示意图：
  
- ![ML pipeline示意图]():
+ ![ML pipeline示意图](https://github.com/Qianlinnn/ScalableML/raw/master/img/ML_Pipeline%E7%A4%BA%E6%84%8F%E5%9B%BE.png):
  
  ## Spark MLlib Piplines
  
  Spark MLlib Piplines代码以及示意图
  
- ![Spark MLlib Piplines代码以及示意图]()
+ ![Spark MLlib Piplines代码以及示意图](https://github.com/Qianlinnn/ScalableML/raw/master/img/Spark_MLib_Pipelines%E4%BB%A3%E7%A0%81%E4%BB%A5%E5%8F%8A%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
  
  ## 举例： 文本分类
  
- ![文本处理示意图]()
+ ![文本处理示意图](https://github.com/Qianlinnn/ScalableML/raw/master/img/%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
  
  ## ML Workflow(机器学习工作流)
  
- ![机器学习工作流]()
+ ![机器学习工作流](https://github.com/Qianlinnn/ScalableML/raw/master/img/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
  
  ## Load Data
  
- ![load_data图1]()
+ ![load_data图1](https://github.com/Qianlinnn/ScalableML/raw/master/img/load_data%E5%9B%BE1.png)
  
- ![load_data图2]()
+ ![load_data图2](https://github.com/Qianlinnn/ScalableML/raw/master/img/load_data%E5%9B%BE2.png)
  
  ## Extract Features
  
- ![extract_features]()
+ ![extract_features](https://github.com/Qianlinnn/ScalableML/raw/master/img/Extract_features.png)
  
- ![extract_features]()
+ ![extract_features](https://github.com/Qianlinnn/ScalableML/raw/master/img/Extract_features%E5%9B%BE2.png)
  
  ## train a model
  
- ![train_model]()
+ ![train_model](https://github.com/Qianlinnn/ScalableML/raw/master/img/train_moedel.png)
  
  ## evaluate model
  
- ![evaluate_model]()
+ ![evaluate_model](https://github.com/Qianlinnn/ScalableML/raw/master/img/evaluate_model.png)
  
  ## ML Pipelines
  
- ![ML pipelines]()
+ ![ML pipelines](https://github.com/Qianlinnn/ScalableML/raw/master/img/ML_pipelines%E4%B8%8B%E9%9D%A2%E7%9A%84%E5%9B%BE.png)
  
  ## Parameter Tuning
  
  ![Parameter_tuning]()
  
- ## 
+ ##  How Spark Works
  
+* 用户应用程序创建RDD，对其进行转换并运行操作。
+* 这导致运算符的DAG（有向无环图)。
+* DAG分为多个阶段
+* 每个阶段都作为一系列任务（每个分区一个任务）执行
+
+## Word Count in Spark
+* 示意图
+
+![word_count_in_spark示意图]()
+
+## Execution plan
+
+![Execution_plan示意图]()
+
+* The scheduler(排程器)检查RDD的血统图以建立阶段的DAG
+
+* stage是RDD的顺序，二者不能改变顺序
+
+* 两者的边界是 shuffles stage(洗牌阶段)
+
+[map 和flatmap说明](https://blog.csdn.net/WYpersist/article/details/80220211)
+
+## Stage Execution(阶段执行)
+
+![阶段执行]()
+
+* 在新的RDD里为每一个分区创建一个任务
+* 序列化任务
+* 安排并运送任务去执行
+* 所有这些都在内部发生
+
+# Word Count in Spark(作一个整体的视角)
+* 在Spark里使用scala统计单词
+
+![whole_view_word_count]()
+
+## RDD 操作
+
+![RDD操作]()
+
+# Setting the Level of Parallelism](设置并行度)
+
+* 所有对RDD操作都采用可选的第二个参数来表示任务数量
+    * words.reduceByKey((x,y) => x + y, 5)
+    * words.groupByKey(5)
+
+## Using Local Variables(使用局部变量)
+* 在闭包中使用的任何外部变量将自动发送到集群：
+
+* Some Caveats(y一些警告)
+    * 每个task(任务)都会得到一个新的copy(副本)
+    * 变量必须可以序列化
+
+# Shared Variables(共享变量)：broadcast variable(广播变量) and accumulator(累加器)
+* 当使用transformation和action函数来执行动作时， Spark会自动将包含该函数的闭包推送给工作程序，以便它可以在工作程序上运行
+* 闭包或数据结构中的任何变量或数据将与闭包一起分发到工作程序节点(很绕)
+* 在集群节点上执行某个函数（例如map或reduce）后，该函数使用的变量是所有变量的单独复制品。
+* 通常这些变量是常量，但是他们不能通过workers来有效的分享
+* 考虑下这些使用场景
+    * 具有较大全局变量的迭代或单个作业
+        * 将大型只读查询表发送给工作人员
+        * 使用ML算法将大型特征向量发送给工作人员
+        * 问题: 每次迭代都无法将大数据发送给每个工作人员
+        * 解决方案：Broadcast variables广播变量
+    * 计算程序执行期间发生的事件
+        * 有多少输入行是空白的
+        * 有多少输入记录呗损坏
+
+## Boradcast Variable
+* 允许程序员在每台计算机上保留一个只读变量，而不是将其副本与任务一起发送。
+    * 例如，为每个节点有效地提供大型输入数据集的副本
+* Spark还尝试使用有效的广播算法分配广播变量，以降低通信成本
+* 广播变量是通过调用SparkContext.broadcast（v）从变量v创建的。 可以通过调用value方法来访问其值。
+    * e.g. scala > val broadcastVar =sc.broadcast(Array(1, 2, 3))
+* 在集群上运行的任何函数中，都应使用广播变量而不是值v，以使v不会多次传送给节点
+
+## Accumulators(累加器)
+* 累加器是仅通过关联和交换操作“添加”的变量，因此可以有效地并行支持。
+* 用于实现计数器（如MapReduce）或总和
+* Spark天然支持数字类型的累加器，程序员可以添加对新数据类型的支持
+* 只有驱动程序可以读取累加器的值，而任务不能读取
+* 通过调用SparkContext.accumulator（v）从初始值v创建累加器。(见lab2)
+
+      
+[什么是闭包](https://zhuanlan.zhihu.com/p/22229197)
+[什么是共享变量](https://juejin.im/post/5d1465b7f265da1b7a4b85e9)
+
+    
  
  
  
