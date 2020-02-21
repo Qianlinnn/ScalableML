@@ -40,7 +40,7 @@
 
 * 将结构强加于非结构化数据
 
-![结构光谱图ETL]()
+![结构光谱图ETL](https://github.com/Qianlinnn/ScalableML/raw/master/img2/week1/ETL.png)
 
 [结构化数据，半结构化数据，非结构化数据说明](https://blog.csdn.net/liangyihuai/article/details/54864952)
 ## The Big Data Problem
