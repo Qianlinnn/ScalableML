@@ -18,7 +18,7 @@
 
 ## The Structure Spectrum
 
-![数据结构光谱]()
+![数据结构光谱](https://github.com/Qianlinnn/ScalableML/raw/master/img2/week1/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%85%89%E8%B0%B1.png)
 
 ## 结构化数据（数据库）
 * Database：一个关系数据模型，用来描述一个数据库是如何结构化和使用的
@@ -40,7 +40,7 @@
 
 * 将结构强加于非结构化数据
 
-![结构光谱图ETF](https://github.com/Qianlinnn/ScalableML/raw/master/img2/week1/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%85%89%E8%B0%B1.png)
+![结构光谱图ETL]()
 
 [结构化数据，半结构化数据，非结构化数据说明](https://blog.csdn.net/liangyihuai/article/details/54864952)
 ## The Big Data Problem
